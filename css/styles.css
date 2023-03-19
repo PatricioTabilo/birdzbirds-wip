@@ -73,6 +73,6 @@ body {
 
   .mobile-image {
     display: block;
-    width: 365px;
+    width: 100vw;
   }
 }
