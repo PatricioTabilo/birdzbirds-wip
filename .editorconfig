@@ -1,0 +1,20 @@
+# Indentación de 4 espacios
+[*.html, *.css, *.js]
+indent_style = space
+indent_size = 2
+
+# Final de línea Unix
+[*]
+end_of_line = lf
+
+# Charset UTF-8
+[*.{html,css,js}]
+charset = utf-8
+
+# Eliminar espacios en blanco al final de las líneas
+[*.{html,css,js}]
+trim_trailing_whitespace = true
+
+# Agregar una línea en blanco al final del archivo
+[*.{html,css,js}]
+insert_final_newline = true
