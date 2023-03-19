@@ -64,6 +64,7 @@ body {
     order: 2;
     transform: translateY(0px);
     margin-top: 20px;
+    position: initial;
   }
 
   .desktop-image {
