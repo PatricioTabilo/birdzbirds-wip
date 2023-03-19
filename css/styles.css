@@ -24,8 +24,18 @@ body {
   height: 230px;
 }
 
-.characters {
+.image-container {
   overflow: hidden;
+}
+
+.desktop-image {
+  height: 550px;
+  overflow: hidden;
+}
+
+.mobile-image {
+  display: none;
+  transform: translateY(20px)
 }
 
 .coming-soon-text {
@@ -37,13 +47,15 @@ body {
   letter-spacing: -2px;
 }
 
+
+
 @media screen and (max-width: 640px) {
   .logo {
     height: 170px;
     order: 1;
   }
 
-  .characters {
+  .image-container {
     order: 3;
     position: absolute;
     bottom: 10px
@@ -52,5 +64,15 @@ body {
   .coming-soon-text {
     order: 2;
     transform: translateY(0px);
+    margin-top: 20px;
+  }
+
+  .desktop-image {
+    display: none;
+  }
+
+  .mobile-image {
+    display: block;
+    width: 365px;
   }
 }
