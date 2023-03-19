@@ -8,7 +8,11 @@
 </head>
 <body>
   <img src="img/logo.png" alt="BirdzBirds Logo" class="logo">
-  <img src="img/characters.png" alt="BirdzBirds Characters" class="characters">
+  <img src="img/characters.png"
+     srcset="img/characters_mobile.png 640w, img/characters.png 1024w"
+     sizes="(max-width: 640px) 640px, 800px"
+     alt="Logo"
+     class="characters">
   <p class="coming-soon-text">Coming soon</p>
 
   <script src="js/parallax.js"></script>

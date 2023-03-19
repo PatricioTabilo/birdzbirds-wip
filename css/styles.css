@@ -10,6 +10,7 @@ body {
   background-color: white;
   font-family: Arial, sans-serif;
   max-height: 100vh;
+  min-height: 100vh;
   align-items: center;
   padding-top: 70px;
   background-image: url('../img/bg.png');
@@ -24,7 +25,6 @@ body {
 }
 
 .characters {
-  height: 600px;
   overflow: hidden;
 }
 
@@ -35,4 +35,22 @@ body {
   transform: translateY(-80px);
   text-transform: uppercase;
   letter-spacing: -2px;
+}
+
+@media screen and (max-width: 640px) {
+  .logo {
+    height: 170px;
+    order: 1;
+  }
+
+  .characters {
+    order: 3;
+    position: absolute;
+    bottom: 10px
+  }
+
+  .coming-soon-text {
+    order: 2;
+    transform: translateY(0px);
+  }
 }
