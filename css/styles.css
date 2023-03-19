@@ -29,7 +29,7 @@ body {
 }
 
 .desktop-image {
-  height: 550px;
+  height: 590px;
   overflow: hidden;
 }
 
@@ -42,12 +42,11 @@ body {
   color: white;
   font-weight: bold;
   font-size: 2.4rem;
-  transform: translateY(-80px);
   text-transform: uppercase;
   letter-spacing: -2px;
+  position:absolute;
+  bottom: 50px;
 }
-
-
 
 @media screen and (max-width: 640px) {
   .logo {
